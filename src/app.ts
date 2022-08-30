@@ -23,7 +23,7 @@ connectWithDb();
 routeConfig(app);
 
 app.get('/', (req, res) => {
-  res.send(`A boilerplate for building production-ready RESTful APIs using Node.js, Express, and Mongoose`);
+  res.send(`A boilerplate for building RESTful APIs using Node.js, Express, Typescript and Mongoose.🚀`);
 });
 
 // Error handling Middleware
