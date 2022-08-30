@@ -1,8 +1,10 @@
-
 ## Quick Start
 
 To create a project, simply run:
+
+```bash
 npx create-nodejs-startup-api <project-name>
+```
 
 ## Manual Installation
 
