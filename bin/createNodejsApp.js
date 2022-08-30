@@ -74,7 +74,7 @@ async function setup() {
     } else {
       await runCmd('npm install');
     }
-    console.log('Dependencies installed successfully.');
+    console.log('Dependencies installed successfully. 🎉');
     console.log();
 
     // Copy envornment variables
@@ -99,12 +99,12 @@ async function setup() {
 
     console.log('We suggest that you start by typing:');
     console.log(`    cd ${folderName}`);
-    console.log(useYarn ? '    yarn dev' : '    npm run dev');
+    console.log(useYarn ? '    yarn start:dev' : '    npm run start:dev');
     console.log();
     console.log(
-      'Enjoy your production-ready Node.js app, which already supports a large number of ready-made features!'
+      'Enjoy your production-ready Node.js app, which already supports a large number of ready-made features!🚀'
     );
-    console.log('Check README.md for more info.');
+    // console.log('Check README.md for more info.');
   } catch (error) {
     console.log(error);
   }
