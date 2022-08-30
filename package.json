@@ -1,8 +1,10 @@
 {
-  "name": "express-typescript-mongoose",
+  "name": "create-express-typescript-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "A boilerplate for building RESTful APIs using Node.js, Express, Typescript and Mongoose.",
+  "bin": "bin/createNodejsApp.js",
+  "main": "server.js",
+  "repository": "https://github.com/NirobxHasan/node-express-typescript-boilerplate.git",
   "scripts": {
     "start:dev": "nodemon",
     "start:prod": "node -r ts-node/register/transpile-only -r  tsconfig-paths/register ./dist/src/server.js",
