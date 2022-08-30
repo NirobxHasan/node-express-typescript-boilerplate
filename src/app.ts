@@ -22,17 +22,14 @@ connectWithDb();
 //Route
 routeConfig(app);
 
+app.get('/', (req, res) => {
+  res.send(`A boilerplate for building production-ready RESTful APIs using Node.js, Express, and Mongoose`);
+});
+
 // Error handling Middleware
 app.use((req: Request, res: Response, next: NextFunction) => {
   throw new NotFound('Requested url was not found!');
 });
 
 app.use(handleError);
-
-
-
-app.get('/', (req, res) => {
-  res.send(`I am here aa ${process.env.DATABASE_URL}`);
-});
-
 export default app;
