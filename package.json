@@ -1,5 +1,5 @@
 {
-  "name": "create-express-typescript-app",
+  "name": "create-nodejs-startup-api",
   "version": "1.0.0",
   "description": "A boilerplate for building RESTful APIs using Node.js, Express, Typescript and Mongoose.",
   "bin": "bin/createNodejsApp.js",
